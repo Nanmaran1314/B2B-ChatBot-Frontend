@@ -1,0 +1,17 @@
+/* Define keyframes for the typing effect */
+@keyframes typing {
+    0% { opacity: 0; }
+    15% { opacity: 1; }
+    30% {opacity:0;}
+    50% { opacity: 1; }
+    75% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  /* Apply the animation to the typing text */
+  .typing {
+    font-size: 0.9rem;
+    color: #888;
+    animation: typing 2s infinite;
+  }
+  
